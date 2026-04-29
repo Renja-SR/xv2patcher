@@ -861,6 +861,9 @@ PUBLIC int UnlockCharaMods(void *pthis, int32_t chara, int32_t var)
 {
 	if (is_original_playable_char(chara))
 		return check_unlock(pthis, chara, var);
+
+	//DEBUG: Printing to learn about chara ids
+	DebugPrintf("Character id: 0x%x \tVar id: 0x%x\n", chara, var);
 	
 	//DPRINTF("Not original, returning 1 for 0x%x\n", chara);
 	

@@ -6,4 +6,5 @@
 *.dll
 *.txt
 release/
-eternity_common-main/
+eternity_common/
+build/
