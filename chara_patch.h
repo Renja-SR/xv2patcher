@@ -12,10 +12,3 @@ const std::string &GetSlotsData();
 extern "C" void OnDeleteMob_Destruction(Battle_Mob *pthis);
 	
 }
-
-struct replacedEntry{
-    int32_t new_chara;
-    int32_t new_var;
-    int32_t look_chara;
-    int32_t look_var;
-};
